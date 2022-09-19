@@ -1,0 +1,86 @@
+.team{
+    background-color: var(--additional-fon-color);
+}
+.employees-item{
+    background-color: var(--main-fon-color);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+
+.about-employees{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+   }
+    .employees-item{
+   border-left: 1px solid var(--border-header-color);
+   border-right:1px solid var(--border-header-color);
+   border-bottom:1px solid var(--border-header-color);
+    }
+.employees{
+font-weight:700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.employee-box {
+    background-color: var(--main-fon-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    white-space: nowrap;
+    }
+
+.employee-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+margin-bottom: 10px;
+}
+.employees-socail-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.em-social-icon{
+    width: 20px;
+    height: 20px;
+    fill:#AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .em-socail-link:hover &,
+    .em-socail-link:focus &{
+    fill: var(--secondary-text-color);
+}
+}
+.em-socail-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--secondary-text-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    background-color: var(--accent-color);
+}
+}
+
+
+
+.job-title{
+font-size: 16px;
+line-height: 1.18;
+color: var(--additional-text-color);
+margin-bottom: 16px;
+}

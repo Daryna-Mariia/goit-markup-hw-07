@@ -1,0 +1,28 @@
+
+.page-header__logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--header-logo-color);
+    margin-right: 93px;
+    }
+    
+    .page-header__logo-word{
+        color: var(--accent-color);
+    }
+
+
+    .footer-logo{
+        display: block;
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--secondary-text-color);
+        margin-bottom: 20px;
+        }
+        .word-logo{
+        color: var(--accent-color);
+        }
+

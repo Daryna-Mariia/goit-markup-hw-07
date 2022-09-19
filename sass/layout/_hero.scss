@@ -1,0 +1,62 @@
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color:var(--color-background-for-img);
+    min-height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient( to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../images/heroimg.jpg);
+     background-size: cover;
+}
+
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color:var(--secondary-text-color);
+margin-bottom: 40px;
+}
+
+.hero-box-title{
+margin-left: auto;
+margin-right: auto;
+width: 700px;
+}
+
+.hero-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color);
+background-color: var(--accent-color);
+width: 216px;
+height: 50px;
+border-radius: 4px;
+transition: background-color var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1), box-shadow var(--transition-dur-and-func) cubic-bezier(0.4, 0, 0.2, 1)
+;
+
+&:hover,
+&:focus{
+background-color: var(--btn-accent-color);
+box-shadow: 0 px 4px 4px 0px rgba(0, 0, 0, 0.15);
+} 
+
+
+}
+
+
+.hero-box-btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 216px;}

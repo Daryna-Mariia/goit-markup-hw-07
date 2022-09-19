@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+button {
+ cursor: pointer;
+ border: none;
+  }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--main-text-color);
+    background-color: var(--main-fon-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.visually-hidden{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
