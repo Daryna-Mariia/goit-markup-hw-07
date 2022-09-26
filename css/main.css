@@ -154,18 +154,18 @@ body {
   background-color: var(--accent-color);
 }
 
-.menu__link {
+.menu .menu__link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu__link:hover, .menu__link:focus {
+.menu .menu__link:hover, .menu .menu__link:focus {
   color: var(--accent-color);
 }
 
-.menu .menu__link .menu_current {
+.menu__link .menu_current {
   color: var(--accent-color);
 }
 
@@ -807,7 +807,7 @@ body {
 }
 
 .modal-form-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .modal-form-field-desc {
@@ -934,6 +934,20 @@ body {
 }
 
 .modal-tekst-ofert {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: rgb(117, 117, 117);
+  line-height: 1.7;
+}
+
+.modal-checkbox-tekst {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: rgb(117, 117, 117);
+  line-height: 1.7;
+}
+
+.modal-form-tekst {
   font-family: var(--primary-font);
   font-size: 14px;
   color: rgb(117, 117, 117);
